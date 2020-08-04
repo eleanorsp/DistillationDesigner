@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en-US</string>
+	<key>CFBundleIdentifier</key>
+	<string>Distillation Designer Help</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Distillation Designer</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>HPDBookAccessPath</key>
+	<string>index.htm</string>
+	<key>HPDBookIconPath</key>
+	<string>Shared/tray2.jpeg</string>
+	<key>HPDBookIndexPath</key>
+	<string>Distillation.helpindex</string>
+	<key>HPDBookKBProduct</key>
+	<string>DistillationDesigner</string>
+	<key>HPDBookRemoteURL</key>
+	<string>http://www.thecrumpery.com/thecrumpery/Distillation_Designer.html</string>
+	<key>HPDBookTitle</key>
+	<string>Distillation Designer Help</string>
+	<key>HPDBookType</key>
+	<string>3</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+</dict>
+</plist>
