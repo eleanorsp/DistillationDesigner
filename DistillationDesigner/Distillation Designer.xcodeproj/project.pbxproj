@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E193A8F15E9719D0078CAAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E193A8E15E9719D0078CAAF /* Cocoa.framework */; };
+		4E193ABE15E9725D0078CAAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		4E193AC015E9726F0078CAAF /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1313251317F8F8002DC789 /* DataSet.m */; };
+		4E193AC115E9726F0078CAAF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1313271317F8F8002DC789 /* DataSource.m */; };
+		4E193AC215E9726F0078CAAF /* FileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1313291317F8F8002DC789 /* FileDataSource.m */; };
+		4E193AC315E9726F0078CAAF /* RelativeVolatilityDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13132B1317F8F8002DC789 /* RelativeVolatilityDataSource.m */; };
+		4E193AC415E9726F0078CAAF /* ConstantRelativeVolatilityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E059C4112D6961600DFA235 /* ConstantRelativeVolatilityController.m */; };
+		4E193AC515E9726F0078CAAF /* LoadDataSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58A02B0DAB406A00354DCA /* LoadDataSetController.m */; };
+		4E193AC615E9726F0078CAAF /* ManualDataSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC4F0D57D2D500379017 /* ManualDataSetController.m */; };
+		4E193AC715E9726F0078CAAF /* Axis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC6B0D57D30000379017 /* Axis.m */; };
+		4E193AC815E9726F0078CAAF /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC6D0D57D30000379017 /* Graph.m */; };
+		4E193AC915E9726F0078CAAF /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC6F0D57D30000379017 /* GraphView.m */; };
+		4E193ACA15E9726F0078CAAF /* GraphLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16632B0D84242100689E0E /* GraphLine.m */; };
+		4E193ACB15E9726F0078CAAF /* TwoDimensionalGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC730D57D30000379017 /* TwoDimensionalGraph.m */; };
+		4E193ACC15E9726F0078CAAF /* GraphResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC560D57D2E700379017 /* GraphResultsController.m */; };
+		4E193ACD15E9726F0078CAAF /* GraphPlotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC590D57D2E700379017 /* GraphPlotController.m */; };
+		4E193ACE15E9726F0078CAAF /* BinaryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8FCBE0DDD8BFB00C9A684 /* BinaryComponents.m */; };
+		4E193ACF15E9726F0078CAAF /* McCabeGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C2C8A0D7B46640099D2B5 /* McCabeGraphView.m */; };
+		4E193AD015E9726F0078CAAF /* McCabeThiele.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC710D57D30000379017 /* McCabeThiele.m */; };
+		4E193AD115E9726F0078CAAF /* McCabeThielePrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D87080DEAEC660044E08A /* McCabeThielePrintView.m */; };
+		4E193AD215E9726F0078CAAF /* OptimalMcCabeThiele.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFD1B00DAE0EF9005DFB0E /* OptimalMcCabeThiele.m */; };
+		4E193AD315E9726F0078CAAF /* DonateWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CD78F0DDF28B000CFE871 /* DonateWindowController.m */; };
+		4E193AD415E9726F0078CAAF /* DataSetWIndowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC610D57D2FF00379017 /* DataSetWIndowController.m */; };
+		4E193AD515E9726F0078CAAF /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58A02F0DAB406A00354DCA /* PreferencesController.m */; };
+		4E193AD615E9726F0078CAAF /* PrintPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D85990DE721280044E08A /* PrintPanelViewController.m */; };
+		4E193AD715E9726F0078CAAF /* QLineWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E398DCD0D8194530074D15D /* QLineWindowController.m */; };
+		4E193AD815E9726F0078CAAF /* McCabeThieleAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C2B640D7B03A80099D2B5 /* McCabeThieleAppController.m */; };
+		4E193AD915E9726F0078CAAF /* McCabeThieleDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC840D57D43F00379017 /* McCabeThieleDocument.m */; };
+		4E193ADA15E9726F0078CAAF /* HasCalculatedStages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58A0290DAB406A00354DCA /* HasCalculatedStages.m */; };
+		4E193ADB15E9726F0078CAAF /* NegateHasCalculatedStages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58A02D0DAB406A00354DCA /* NegateHasCalculatedStages.m */; };
+		4E193ADC15E9726F0078CAAF /* AxisStateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC8D0D57D47100379017 /* AxisStateTransformer.m */; };
+		4E193ADD15E9726F0078CAAF /* GraphBackgroundTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC8F0D57D47100379017 /* GraphBackgroundTransformer.m */; };
+		4E193ADE15E9726F0078CAAF /* PopupValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC920D57D47100379017 /* PopupValueTransformer.m */; };
+		4E193ADF15E9726F0078CAAF /* WillCalculateQTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E398EAB0D81D02C0074D15D /* WillCalculateQTransformer.m */; };
+		4E193AE015E972890078CAAF /* PrintOptionsView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D86B30DE99CDF0044E08A /* PrintOptionsView.nib */; };
+		4E193AE115E972890078CAAF /* QLinePanel.nib in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C7F560D7CBCB100F980E3 /* QLinePanel.nib */; };
+		4EF4BAE524D9D30B005C036B /* TwoDPlotInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC680D57D30000379017 /* TwoDPlotInformation.m */; };
+		4EF4BAE624D9D349005C036B /* DataPlotInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC670D57D30000379017 /* DataPlotInformation.m */; };
+		4EF4BAEC24D9D699005C036B /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4BAE724D9D5CD005C036B /* MainMenu.nib */; };
+		4EF4BAED24D9D6A7005C036B /* DataSetPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3BD260D57D9E400379017 /* DataSetPanel.nib */; };
+		4EF4BAEE24D9D6A7005C036B /* PrintOptionsView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D86B30DE99CDF0044E08A /* PrintOptionsView.nib */; };
+		4EF4BAEF24D9D6A7005C036B /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4E589FF20DAB3C4400354DCA /* Preferences.nib */; };
+		4EF4BAF124D9D6A7005C036B /* McCabeThieleDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3BD290D57D9F800379017 /* McCabeThieleDocument.nib */; };
+		4EF4BAF224D9D6A7005C036B /* QLinePanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C7F560D7CBCB100F980E3 /* QLinePanel.nib */; };
+		4EF4BAF424D9D787005C036B /* DistillationDesignerIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4BAF324D9D787005C036B /* DistillationDesignerIcon.icns */; };
+		4EF4BAF624D9D7A2005C036B /* TrayIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4BAF524D9D7A2005C036B /* TrayIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* DistillationDesigner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistillationDesigner_Prefix.pch; sourceTree = "<group>"; };
+		4E01E6CA0DD11FFF00905E3E /* Credits.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = Credits.rtfd; sourceTree = "<group>"; };
+		4E059C4012D6961600DFA235 /* ConstantRelativeVolatilityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantRelativeVolatilityController.h; sourceTree = "<group>"; };
+		4E059C4112D6961600DFA235 /* ConstantRelativeVolatilityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantRelativeVolatilityController.m; sourceTree = "<group>"; };
+		4E0C2B630D7B03A80099D2B5 /* McCabeThieleAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McCabeThieleAppController.h; sourceTree = "<group>"; };
+		4E0C2B640D7B03A80099D2B5 /* McCabeThieleAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McCabeThieleAppController.m; sourceTree = "<group>"; };
+		4E0C2C890D7B46640099D2B5 /* McCabeGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McCabeGraphView.h; sourceTree = "<group>"; };
+		4E0C2C8A0D7B46640099D2B5 /* McCabeGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McCabeGraphView.m; sourceTree = "<group>"; };
+		4E1313241317F8F8002DC789 /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		4E1313251317F8F8002DC789 /* DataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSet.m; sourceTree = "<group>"; };
+		4E1313261317F8F8002DC789 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		4E1313271317F8F8002DC789 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		4E1313281317F8F8002DC789 /* FileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataSource.h; sourceTree = "<group>"; };
+		4E1313291317F8F8002DC789 /* FileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDataSource.m; sourceTree = "<group>"; };
+		4E13132A1317F8F8002DC789 /* RelativeVolatilityDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeVolatilityDataSource.h; sourceTree = "<group>"; };
+		4E13132B1317F8F8002DC789 /* RelativeVolatilityDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeVolatilityDataSource.m; sourceTree = "<group>"; };
+		4E1313341317FA20002DC789 /* samplereceipt */ = {isa = PBXFileReference; lastKnownFileType = file; name = samplereceipt; path = Resources/samplereceipt; sourceTree = "<group>"; };
+		4E16632A0D84242100689E0E /* GraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphLine.h; sourceTree = "<group>"; };
+		4E16632B0D84242100689E0E /* GraphLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphLine.m; sourceTree = "<group>"; };
+		4E193A8C15E9719D0078CAAF /* Distillation Designer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distillation Designer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E193A8E15E9719D0078CAAF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E193AA815E9719E0078CAAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E398DCC0D8194530074D15D /* QLineWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLineWindowController.h; sourceTree = "<group>"; };
+		4E398DCD0D8194530074D15D /* QLineWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLineWindowController.m; sourceTree = "<group>"; };
+		4E398EAA0D81D02C0074D15D /* WillCalculateQTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WillCalculateQTransformer.h; sourceTree = "<group>"; };
+		4E398EAB0D81D02C0074D15D /* WillCalculateQTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WillCalculateQTransformer.m; sourceTree = "<group>"; };
+		4E3D31DA131D08EE00A70581 /* mac_app_identity.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_app_identity.cer; sourceTree = "<group>"; };
+		4E3D31DB131D08EE00A70581 /* mac_installer_identity.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_installer_identity.cer; sourceTree = "<group>"; };
+		4E3D322E131D183800A70581 /* distillationdesignerdocument.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = distillationdesignerdocument.icns; sourceTree = "<group>"; };
+		4E3D3230131D185A00A70581 /* Optimisation.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Optimisation.icns; sourceTree = "<group>"; };
+		4E3D3232131D186A00A70581 /* DistillationDesignerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DistillationDesignerIcon.icns; sourceTree = "<group>"; };
+		4E4D847D0DE4C1800044E08A /* TrayIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TrayIcon.icns; sourceTree = "<group>"; };
+		4E4D85980DE721280044E08A /* PrintPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintPanelViewController.h; sourceTree = "<group>"; };
+		4E4D85990DE721280044E08A /* PrintPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintPanelViewController.m; sourceTree = "<group>"; };
+		4E4D86B30DE99CDF0044E08A /* PrintOptionsView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = PrintOptionsView.nib; sourceTree = "<group>"; };
+		4E4D86D60DEAD28D0044E08A /* distillationdocumenticon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = distillationdocumenticon.icns; sourceTree = "<group>"; };
+		4E4D87070DEAEC660044E08A /* McCabeThielePrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McCabeThielePrintView.h; sourceTree = "<group>"; };
+		4E4D87080DEAEC660044E08A /* McCabeThielePrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McCabeThielePrintView.m; sourceTree = "<group>"; };
+		4E589FF30DAB3C4400354DCA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		4E58A0280DAB406A00354DCA /* HasCalculatedStages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasCalculatedStages.h; sourceTree = "<group>"; };
+		4E58A0290DAB406A00354DCA /* HasCalculatedStages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasCalculatedStages.m; sourceTree = "<group>"; };
+		4E58A02A0DAB406A00354DCA /* LoadDataSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDataSetController.h; sourceTree = "<group>"; };
+		4E58A02B0DAB406A00354DCA /* LoadDataSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadDataSetController.m; sourceTree = "<group>"; };
+		4E58A02C0DAB406A00354DCA /* NegateHasCalculatedStages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NegateHasCalculatedStages.h; sourceTree = "<group>"; };
+		4E58A02D0DAB406A00354DCA /* NegateHasCalculatedStages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NegateHasCalculatedStages.m; sourceTree = "<group>"; };
+		4E58A02E0DAB406A00354DCA /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		4E58A02F0DAB406A00354DCA /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		4E5A3DEF12F0F4C600878B5E /* appStoreValidateReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appStoreValidateReceipt.h; sourceTree = "<group>"; };
+		4E5A3DF012F0F4C600878B5E /* appStoreValidateReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appStoreValidateReceipt.m; sourceTree = "<group>"; };
+		4E5A3E0312F0F94F00878B5E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4E5A3E0712F0F96000878B5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E6BD33112F0EBF300161EF9 /* Distillation.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Distillation.help; sourceTree = "<group>"; };
+		4E8C7F560D7CBCB100F980E3 /* QLinePanel.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = QLinePanel.nib; path = English.lproj/QLinePanel.nib; sourceTree = "<group>"; };
+		4E8CD74F0DDF1F7300CFE871 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = Resources/ReadMe.txt; sourceTree = "<group>"; };
+		4E8CD78E0DDF28B000CFE871 /* DonateWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateWindowController.h; sourceTree = "<group>"; };
+		4E8CD78F0DDF28B000CFE871 /* DonateWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateWindowController.m; sourceTree = "<group>"; };
+		4EAFD1AF0DAE0EF9005DFB0E /* OptimalMcCabeThiele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimalMcCabeThiele.h; sourceTree = "<group>"; };
+		4EAFD1B00DAE0EF9005DFB0E /* OptimalMcCabeThiele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimalMcCabeThiele.m; sourceTree = "<group>"; };
+		4ED3BC4E0D57D2D500379017 /* ManualDataSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualDataSetController.h; sourceTree = "<group>"; };
+		4ED3BC4F0D57D2D500379017 /* ManualDataSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualDataSetController.m; sourceTree = "<group>"; };
+		4ED3BC550D57D2E700379017 /* GraphResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphResultsController.h; sourceTree = "<group>"; };
+		4ED3BC560D57D2E700379017 /* GraphResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphResultsController.m; sourceTree = "<group>"; };
+		4ED3BC580D57D2E700379017 /* GraphPlotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphPlotController.h; sourceTree = "<group>"; };
+		4ED3BC590D57D2E700379017 /* GraphPlotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphPlotController.m; sourceTree = "<group>"; };
+		4ED3BC600D57D2FF00379017 /* DataSetWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSetWindowController.h; sourceTree = "<group>"; };
+		4ED3BC610D57D2FF00379017 /* DataSetWIndowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSetWIndowController.m; sourceTree = "<group>"; };
+		4ED3BC640D57D2FF00379017 /* SurfacePlotInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurfacePlotInformation.h; sourceTree = "<group>"; };
+		4ED3BC650D57D30000379017 /* SurfacePlotInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurfacePlotInformation.m; sourceTree = "<group>"; };
+		4ED3BC660D57D30000379017 /* DataPlotInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPlotInformation.h; sourceTree = "<group>"; };
+		4ED3BC670D57D30000379017 /* DataPlotInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPlotInformation.m; sourceTree = "<group>"; };
+		4ED3BC680D57D30000379017 /* TwoDPlotInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoDPlotInformation.m; sourceTree = "<group>"; };
+		4ED3BC690D57D30000379017 /* TwoDPlotInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoDPlotInformation.h; sourceTree = "<group>"; };
+		4ED3BC6A0D57D30000379017 /* Axis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Axis.h; sourceTree = "<group>"; };
+		4ED3BC6B0D57D30000379017 /* Axis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Axis.m; sourceTree = "<group>"; };
+		4ED3BC6C0D57D30000379017 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		4ED3BC6D0D57D30000379017 /* Graph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		4ED3BC6E0D57D30000379017 /* GraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		4ED3BC6F0D57D30000379017 /* GraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		4ED3BC700D57D30000379017 /* McCabeThiele.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = McCabeThiele.h; sourceTree = "<group>"; };
+		4ED3BC710D57D30000379017 /* McCabeThiele.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = McCabeThiele.m; sourceTree = "<group>"; };
+		4ED3BC720D57D30000379017 /* TwoDimensionalGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoDimensionalGraph.h; sourceTree = "<group>"; };
+		4ED3BC730D57D30000379017 /* TwoDimensionalGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoDimensionalGraph.m; sourceTree = "<group>"; };
+		4ED3BC830D57D43F00379017 /* McCabeThieleDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McCabeThieleDocument.h; sourceTree = "<group>"; };
+		4ED3BC840D57D43F00379017 /* McCabeThieleDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McCabeThieleDocument.m; sourceTree = "<group>"; };
+		4ED3BC8D0D57D47100379017 /* AxisStateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisStateTransformer.m; sourceTree = "<group>"; };
+		4ED3BC8E0D57D47100379017 /* AxisStateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisStateTransformer.h; sourceTree = "<group>"; };
+		4ED3BC8F0D57D47100379017 /* GraphBackgroundTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphBackgroundTransformer.m; sourceTree = "<group>"; };
+		4ED3BC900D57D47100379017 /* GraphBackgroundTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphBackgroundTransformer.h; sourceTree = "<group>"; };
+		4ED3BC910D57D47100379017 /* PopupValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupValueTransformer.h; sourceTree = "<group>"; };
+		4ED3BC920D57D47100379017 /* PopupValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupValueTransformer.m; sourceTree = "<group>"; };
+		4ED3BD270D57D9E400379017 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DataSetPanel.nib; sourceTree = "<group>"; };
+		4ED3BD2A0D57D9F800379017 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/McCabeThieleDocument.nib; sourceTree = "<group>"; };
+		4EF4BAE824D9D5CD005C036B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		4EF4BAEA24D9D651005C036B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/DataSetPanel.nib; sourceTree = "<group>"; };
+		4EF4BAF324D9D787005C036B /* DistillationDesignerIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DistillationDesignerIcon.icns; sourceTree = "<group>"; };
+		4EF4BAF524D9D7A2005C036B /* TrayIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TrayIcon.icns; sourceTree = "<group>"; };
+		4EF800950DDE51F100C9A684 /* BoilingPoint.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BoilingPoint.icns; sourceTree = "<group>"; };
+		4EF8FCBD0DDD8BFB00C9A684 /* BinaryComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryComponents.h; sourceTree = "<group>"; };
+		4EF8FCBE0DDD8BFB00C9A684 /* BinaryComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryComponents.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E193A8915E9719D0078CAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E193A8F15E9719D0078CAAF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E1313221317F8D7002DC789 /* Data Sources */,
+				4ED3BC4D0D57D2D500379017 /* Data Set Controllers */,
+				4ED3BC620D57D2FF00379017 /* Graph Elements */,
+				4ED3BC540D57D2E700379017 /* Graph Window Controllers */,
+				4E0C2C950D7B47C30099D2B5 /* McCabeThiele */,
+				4E398DCB0D8194230074D15D /* Panels */,
+				4E0C2B630D7B03A80099D2B5 /* McCabeThieleAppController.h */,
+				4E0C2B640D7B03A80099D2B5 /* McCabeThieleAppController.m */,
+				4ED3BC830D57D43F00379017 /* McCabeThieleDocument.h */,
+				4ED3BC840D57D43F00379017 /* McCabeThieleDocument.m */,
+				4ED3BC740D57D30000379017 /* Transformers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E193A8C15E9719D0078CAAF /* Distillation Designer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DistillationDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4BAF524D9D7A2005C036B /* TrayIcon.icns */,
+				4EF4BAF324D9D787005C036B /* DistillationDesignerIcon.icns */,
+				4EF4BAE924D9D651005C036B /* DataSetPanel.nib */,
+				4EF4BAE724D9D5CD005C036B /* MainMenu.nib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				32CA4F630368D1EE00C91783 /* DistillationDesigner_Prefix.pch */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				4E8CD7890DDF26B700CFE871 /* Install Files */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DistillationDesigner;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				4E5A3DEF12F0F4C600878B5E /* appStoreValidateReceipt.h */,
+				4E5A3DF012F0F4C600878B5E /* appStoreValidateReceipt.m */,
+			);
+			name = "Other Sources";
+			path = "Classes/Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D3232131D186A00A70581 /* DistillationDesignerIcon.icns */,
+				4E3D3230131D185A00A70581 /* Optimisation.icns */,
+				4E3D322E131D183800A70581 /* distillationdesignerdocument.icns */,
+				4E6BD33112F0EBF300161EF9 /* Distillation.help */,
+				4E4D86D60DEAD28D0044E08A /* distillationdocumenticon.icns */,
+				4EF800950DDE51F100C9A684 /* BoilingPoint.icns */,
+				4E01E6CA0DD11FFF00905E3E /* Credits.rtfd */,
+				4E4D847D0DE4C1800044E08A /* TrayIcon.icns */,
+				4ED3BD260D57D9E400379017 /* DataSetPanel.nib */,
+				4E4D86B30DE99CDF0044E08A /* PrintOptionsView.nib */,
+				4E589FF20DAB3C4400354DCA /* Preferences.nib */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				4ED3BD290D57D9F800379017 /* McCabeThieleDocument.nib */,
+				4E8C7F560D7CBCB100F980E3 /* QLinePanel.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				4E193A8E15E9719D0078CAAF /* Cocoa.framework */,
+				4E193AA815E9719E0078CAAF /* SenTestingKit.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				4E5A3E0312F0F94F00878B5E /* IOKit.framework */,
+				4E5A3E0712F0F96000878B5E /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E0C2C950D7B47C30099D2B5 /* McCabeThiele */ = {
+			isa = PBXGroup;
+			children = (
+				4EF8FCBD0DDD8BFB00C9A684 /* BinaryComponents.h */,
+				4EF8FCBE0DDD8BFB00C9A684 /* BinaryComponents.m */,
+				4E0C2C890D7B46640099D2B5 /* McCabeGraphView.h */,
+				4E0C2C8A0D7B46640099D2B5 /* McCabeGraphView.m */,
+				4ED3BC700D57D30000379017 /* McCabeThiele.h */,
+				4ED3BC710D57D30000379017 /* McCabeThiele.m */,
+				4E4D87070DEAEC660044E08A /* McCabeThielePrintView.h */,
+				4E4D87080DEAEC660044E08A /* McCabeThielePrintView.m */,
+				4EAFD1AF0DAE0EF9005DFB0E /* OptimalMcCabeThiele.h */,
+				4EAFD1B00DAE0EF9005DFB0E /* OptimalMcCabeThiele.m */,
+			);
+			path = McCabeThiele;
+			sourceTree = "<group>";
+		};
+		4E1313221317F8D7002DC789 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4E1313241317F8F8002DC789 /* DataSet.h */,
+				4E1313251317F8F8002DC789 /* DataSet.m */,
+				4E1313261317F8F8002DC789 /* DataSource.h */,
+				4E1313271317F8F8002DC789 /* DataSource.m */,
+				4E1313281317F8F8002DC789 /* FileDataSource.h */,
+				4E1313291317F8F8002DC789 /* FileDataSource.m */,
+				4E13132A1317F8F8002DC789 /* RelativeVolatilityDataSource.h */,
+				4E13132B1317F8F8002DC789 /* RelativeVolatilityDataSource.m */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		4E398DCB0D8194230074D15D /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CD78E0DDF28B000CFE871 /* DonateWindowController.h */,
+				4E8CD78F0DDF28B000CFE871 /* DonateWindowController.m */,
+				4ED3BC600D57D2FF00379017 /* DataSetWindowController.h */,
+				4ED3BC610D57D2FF00379017 /* DataSetWIndowController.m */,
+				4E58A02E0DAB406A00354DCA /* PreferencesController.h */,
+				4E58A02F0DAB406A00354DCA /* PreferencesController.m */,
+				4E4D85980DE721280044E08A /* PrintPanelViewController.h */,
+				4E4D85990DE721280044E08A /* PrintPanelViewController.m */,
+				4E398DCC0D8194530074D15D /* QLineWindowController.h */,
+				4E398DCD0D8194530074D15D /* QLineWindowController.m */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+		4E3D31D7131D083400A70581 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D31DA131D08EE00A70581 /* mac_app_identity.cer */,
+				4E3D31DB131D08EE00A70581 /* mac_installer_identity.cer */,
+			);
+			name = Certificates;
+			path = Resources/Certificates;
+			sourceTree = "<group>";
+		};
+		4E8CD7890DDF26B700CFE871 /* Install Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D31D7131D083400A70581 /* Certificates */,
+				4E1313341317FA20002DC789 /* samplereceipt */,
+				4E8CD74F0DDF1F7300CFE871 /* ReadMe.txt */,
+			);
+			name = "Install Files";
+			sourceTree = "<group>";
+		};
+		4ED3BC4D0D57D2D500379017 /* Data Set Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E059C4012D6961600DFA235 /* ConstantRelativeVolatilityController.h */,
+				4E059C4112D6961600DFA235 /* ConstantRelativeVolatilityController.m */,
+				4E58A02A0DAB406A00354DCA /* LoadDataSetController.h */,
+				4E58A02B0DAB406A00354DCA /* LoadDataSetController.m */,
+				4ED3BC4E0D57D2D500379017 /* ManualDataSetController.h */,
+				4ED3BC4F0D57D2D500379017 /* ManualDataSetController.m */,
+			);
+			path = "Data Set Controllers";
+			sourceTree = "<group>";
+		};
+		4ED3BC540D57D2E700379017 /* Graph Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3BC550D57D2E700379017 /* GraphResultsController.h */,
+				4ED3BC560D57D2E700379017 /* GraphResultsController.m */,
+				4ED3BC580D57D2E700379017 /* GraphPlotController.h */,
+				4ED3BC590D57D2E700379017 /* GraphPlotController.m */,
+			);
+			path = "Graph Window Controllers";
+			sourceTree = "<group>";
+		};
+		4ED3BC620D57D2FF00379017 /* Graph Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3BC6A0D57D30000379017 /* Axis.h */,
+				4ED3BC6B0D57D30000379017 /* Axis.m */,
+				4ED3BC6C0D57D30000379017 /* Graph.h */,
+				4ED3BC6D0D57D30000379017 /* Graph.m */,
+				4ED3BC6E0D57D30000379017 /* GraphView.h */,
+				4ED3BC6F0D57D30000379017 /* GraphView.m */,
+				4E16632A0D84242100689E0E /* GraphLine.h */,
+				4E16632B0D84242100689E0E /* GraphLine.m */,
+				4ED3BC720D57D30000379017 /* TwoDimensionalGraph.h */,
+				4ED3BC730D57D30000379017 /* TwoDimensionalGraph.m */,
+				4ED3BC630D57D2FF00379017 /* Plot Information */,
+			);
+			path = "Graph Elements";
+			sourceTree = "<group>";
+		};
+		4ED3BC630D57D2FF00379017 /* Plot Information */ = {
+			isa = PBXGroup;
+			children = (
+				4ED3BC640D57D2FF00379017 /* SurfacePlotInformation.h */,
+				4ED3BC650D57D30000379017 /* SurfacePlotInformation.m */,
+				4ED3BC660D57D30000379017 /* DataPlotInformation.h */,
+				4ED3BC670D57D30000379017 /* DataPlotInformation.m */,
+				4ED3BC680D57D30000379017 /* TwoDPlotInformation.m */,
+				4ED3BC690D57D30000379017 /* TwoDPlotInformation.h */,
+			);
+			path = "Plot Information";
+			sourceTree = "<group>";
+		};
+		4ED3BC740D57D30000379017 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				4E58A0280DAB406A00354DCA /* HasCalculatedStages.h */,
+				4E58A0290DAB406A00354DCA /* HasCalculatedStages.m */,
+				4E58A02C0DAB406A00354DCA /* NegateHasCalculatedStages.h */,
+				4E58A02D0DAB406A00354DCA /* NegateHasCalculatedStages.m */,
+				4ED3BC8E0D57D47100379017 /* AxisStateTransformer.h */,
+				4ED3BC8D0D57D47100379017 /* AxisStateTransformer.m */,
+				4ED3BC900D57D47100379017 /* GraphBackgroundTransformer.h */,
+				4ED3BC8F0D57D47100379017 /* GraphBackgroundTransformer.m */,
+				4ED3BC910D57D47100379017 /* PopupValueTransformer.h */,
+				4ED3BC920D57D47100379017 /* PopupValueTransformer.m */,
+				4E398EAA0D81D02C0074D15D /* WillCalculateQTransformer.h */,
+				4E398EAB0D81D02C0074D15D /* WillCalculateQTransformer.m */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E193A8B15E9719D0078CAAF /* Distillation Designer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E193AB615E9719E0078CAAF /* Build configuration list for PBXNativeTarget "Distillation Designer" */;
+			buildPhases = (
+				4E193A8815E9719D0078CAAF /* Sources */,
+				4E193A8915E9719D0078CAAF /* Frameworks */,
+				4E193A8A15E9719D0078CAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distillation Designer";
+			productName = "Distillation Designer";
+			productReference = 4E193A8C15E9719D0078CAAF /* Distillation Designer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Distillation Designer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DistillationDesigner */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E193A8B15E9719D0078CAAF /* Distillation Designer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E193A8A15E9719D0078CAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4BAED24D9D6A7005C036B /* DataSetPanel.nib in Resources */,
+				4EF4BAEE24D9D6A7005C036B /* PrintOptionsView.nib in Resources */,
+				4EF4BAEF24D9D6A7005C036B /* Preferences.nib in Resources */,
+				4EF4BAF124D9D6A7005C036B /* McCabeThieleDocument.nib in Resources */,
+				4EF4BAF224D9D6A7005C036B /* QLinePanel.nib in Resources */,
+				4EF4BAEC24D9D699005C036B /* MainMenu.nib in Resources */,
+				4EF4BAF424D9D787005C036B /* DistillationDesignerIcon.icns in Resources */,
+				4EF4BAF624D9D7A2005C036B /* TrayIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E193A8815E9719D0078CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4BAE624D9D349005C036B /* DataPlotInformation.m in Sources */,
+				4EF4BAE524D9D30B005C036B /* TwoDPlotInformation.m in Sources */,
+				4E193AE015E972890078CAAF /* PrintOptionsView.nib in Sources */,
+				4E193AE115E972890078CAAF /* QLinePanel.nib in Sources */,
+				4E193AC015E9726F0078CAAF /* DataSet.m in Sources */,
+				4E193AC115E9726F0078CAAF /* DataSource.m in Sources */,
+				4E193AC215E9726F0078CAAF /* FileDataSource.m in Sources */,
+				4E193AC315E9726F0078CAAF /* RelativeVolatilityDataSource.m in Sources */,
+				4E193AC415E9726F0078CAAF /* ConstantRelativeVolatilityController.m in Sources */,
+				4E193AC515E9726F0078CAAF /* LoadDataSetController.m in Sources */,
+				4E193AC615E9726F0078CAAF /* ManualDataSetController.m in Sources */,
+				4E193AC715E9726F0078CAAF /* Axis.m in Sources */,
+				4E193AC815E9726F0078CAAF /* Graph.m in Sources */,
+				4E193AC915E9726F0078CAAF /* GraphView.m in Sources */,
+				4E193ACA15E9726F0078CAAF /* GraphLine.m in Sources */,
+				4E193ACB15E9726F0078CAAF /* TwoDimensionalGraph.m in Sources */,
+				4E193ACC15E9726F0078CAAF /* GraphResultsController.m in Sources */,
+				4E193ACD15E9726F0078CAAF /* GraphPlotController.m in Sources */,
+				4E193ACE15E9726F0078CAAF /* BinaryComponents.m in Sources */,
+				4E193ACF15E9726F0078CAAF /* McCabeGraphView.m in Sources */,
+				4E193AD015E9726F0078CAAF /* McCabeThiele.m in Sources */,
+				4E193AD115E9726F0078CAAF /* McCabeThielePrintView.m in Sources */,
+				4E193AD215E9726F0078CAAF /* OptimalMcCabeThiele.m in Sources */,
+				4E193AD315E9726F0078CAAF /* DonateWindowController.m in Sources */,
+				4E193AD415E9726F0078CAAF /* DataSetWIndowController.m in Sources */,
+				4E193AD515E9726F0078CAAF /* PreferencesController.m in Sources */,
+				4E193AD615E9726F0078CAAF /* PrintPanelViewController.m in Sources */,
+				4E193AD715E9726F0078CAAF /* QLineWindowController.m in Sources */,
+				4E193AD815E9726F0078CAAF /* McCabeThieleAppController.m in Sources */,
+				4E193AD915E9726F0078CAAF /* McCabeThieleDocument.m in Sources */,
+				4E193ADA15E9726F0078CAAF /* HasCalculatedStages.m in Sources */,
+				4E193ADB15E9726F0078CAAF /* NegateHasCalculatedStages.m in Sources */,
+				4E193ADC15E9726F0078CAAF /* AxisStateTransformer.m in Sources */,
+				4E193ADD15E9726F0078CAAF /* GraphBackgroundTransformer.m in Sources */,
+				4E193ADE15E9726F0078CAAF /* PopupValueTransformer.m in Sources */,
+				4E193ADF15E9726F0078CAAF /* WillCalculateQTransformer.m in Sources */,
+				4E193ABE15E9725D0078CAAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		4E589FF20DAB3C4400354DCA /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E589FF30DAB3C4400354DCA /* English */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		4ED3BD260D57D9E400379017 /* DataSetPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED3BD270D57D9E400379017 /* English */,
+			);
+			name = DataSetPanel.nib;
+			sourceTree = "<group>";
+		};
+		4ED3BD290D57D9F800379017 /* McCabeThieleDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED3BD2A0D57D9F800379017 /* English */,
+			);
+			name = McCabeThieleDocument.nib;
+			sourceTree = "<group>";
+		};
+		4EF4BAE724D9D5CD005C036B /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF4BAE824D9D5CD005C036B /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		4EF4BAE924D9D651005C036B /* DataSetPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF4BAEA24D9D651005C036B /* English */,
+			);
+			name = DataSetPanel.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E193AB715E9719E0078CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DistillationDesigner_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E193AB815E9719E0078CAAF /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DistillationDesigner_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Beta;
+		};
+		4E193AB915E9719E0078CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DistillationDesigner_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E3D31DC131D0C7500A70581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Spenceley Consultancy Ltd";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		4EE0F9AB131885C700D5498A /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[arch=*]" = "$(NATIVE_ARCH)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = BETA_TEST;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Beta;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = BETA_TEST;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E193AB615E9719E0078CAAF /* Build configuration list for PBXNativeTarget "Distillation Designer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E193AB715E9719E0078CAAF /* Debug */,
+				4E193AB815E9719E0078CAAF /* Beta */,
+				4E193AB915E9719E0078CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Distillation Designer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				4EE0F9AB131885C700D5498A /* Beta */,
+				4E3D31DC131D0C7500A70581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

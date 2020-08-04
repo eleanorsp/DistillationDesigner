@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6be0419b-5b88-428d-9acc-eab754e36ca8++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6be0419b-5b88-428d-9acc-eab754e36ca8++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6be0419b-5b88-428d-9acc-eab754e36ca8++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB434D30-3CEE-4F68-9914-EFD717542725",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6be0419b-5b88-428d-9acc-eab754e36ca8++505" : "DistillationDesigner%20(trunk)\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Distillation Designer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Distillation Designer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/old-mini-server.local\/svn\/DistillationDesigner",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6be0419b-5b88-428d-9acc-eab754e36ca8++505"
+    }
+  ]
+}
