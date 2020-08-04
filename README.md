@@ -6,5 +6,7 @@ I have compiled and run this using XCode v4.4 on a Mountain Lion 10.8 version of
 
 Enjoy and good luck! :-)
 
+<img src="https://raw.githubusercontent.com/eleanorsp/DistillationDesigner/screenshots/ScreenShot1.png" alt="Screenshow Example" style="zoom:10%;" />
 
+DistillationDesigner/screenshots/ScreenShot1.png
 
