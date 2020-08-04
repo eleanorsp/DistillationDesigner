@@ -41,8 +41,6 @@
 		4E193ADD15E9726F0078CAAF /* GraphBackgroundTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC8F0D57D47100379017 /* GraphBackgroundTransformer.m */; };
 		4E193ADE15E9726F0078CAAF /* PopupValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC920D57D47100379017 /* PopupValueTransformer.m */; };
 		4E193ADF15E9726F0078CAAF /* WillCalculateQTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E398EAB0D81D02C0074D15D /* WillCalculateQTransformer.m */; };
-		4E193AE015E972890078CAAF /* PrintOptionsView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D86B30DE99CDF0044E08A /* PrintOptionsView.nib */; };
-		4E193AE115E972890078CAAF /* QLinePanel.nib in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C7F560D7CBCB100F980E3 /* QLinePanel.nib */; };
 		4EF4BAE524D9D30B005C036B /* TwoDPlotInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC680D57D30000379017 /* TwoDPlotInformation.m */; };
 		4EF4BAE624D9D349005C036B /* DataPlotInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED3BC670D57D30000379017 /* DataPlotInformation.m */; };
 		4EF4BAEC24D9D699005C036B /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF4BAE724D9D5CD005C036B /* MainMenu.nib */; };
@@ -455,8 +453,12 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = NO;
 				LastUpgradeCheck = 0440;
+				TargetAttributes = {
+					4E193A8B15E9719D0078CAAF = {
+						DevelopmentTeam = 6RK7SF6JYR;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Distillation Designer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -503,8 +505,6 @@
 			files = (
 				4EF4BAE624D9D349005C036B /* DataPlotInformation.m in Sources */,
 				4EF4BAE524D9D30B005C036B /* TwoDPlotInformation.m in Sources */,
-				4E193AE015E972890078CAAF /* PrintOptionsView.nib in Sources */,
-				4E193AE115E972890078CAAF /* QLinePanel.nib in Sources */,
 				4E193AC015E9726F0078CAAF /* DataSet.m in Sources */,
 				4E193AC115E9726F0078CAAF /* DataSource.m in Sources */,
 				4E193AC215E9726F0078CAAF /* FileDataSource.m in Sources */,
@@ -612,8 +612,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6RK7SF6JYR;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -628,9 +630,10 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -643,16 +646,19 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6RK7SF6JYR;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DistillationDesigner_Prefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Beta;
@@ -665,6 +671,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -673,8 +680,9 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -691,8 +699,9 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
@@ -708,8 +717,9 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Beta;
@@ -723,8 +733,9 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
