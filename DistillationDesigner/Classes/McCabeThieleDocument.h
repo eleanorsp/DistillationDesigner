@@ -15,7 +15,6 @@
 #import "BinaryComponents.h"
 
 #import "DataSetWindowController.h"
-//#import "DataSetPlotController.h"
 #import "GraphPlotController.h"
 #import "QLineWindowController.h"
 #import "PrintPanelViewController.h"
